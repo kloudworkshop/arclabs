@@ -76,7 +76,7 @@ In this task, you will deploy Azure compute resources that will be used to emula
     Set-Location -Path $HOME
     Remove-Item -Path ./Deploy-and-manage-Azure-Arc-enabled-Servers -Recurse -Force
     git clone --depth 1 https://github.com/kloudworkshop/arclabs.git
-    Set-Location -Path ./Deploy-and-manage-Azure-Arc-enabled-Servers/Allfiles/Templates
+    Set-Location -Path ./arclabs/Allfiles/Templates
     ```
 
 1. In the Cloud Shell pane, run the following command to set the value of the variable `$rgName` designating the target resource group name to `arclab-infra-RG`:
