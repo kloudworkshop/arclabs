@@ -74,7 +74,7 @@ In this task, you will deploy Azure compute resources that will be used to emula
 
     ```
     Set-Location -Path $HOME
-    Remove-Item -Path ./Deploy-and-manage-Azure-Arc-enabled-Servers -Recurse -Force
+    Remove-Item -Path ./arclabs -Recurse -Force
     git clone --depth 1 https://github.com/kloudworkshop/arclabs.git
     Set-Location -Path ./arclabs/Allfiles/Templates
     ```
